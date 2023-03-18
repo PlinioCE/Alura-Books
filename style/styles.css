@@ -3,15 +3,17 @@
 
 :root {
     --fonte-padrao: 'Poppins', sans-serif;
-    --fonte-alura: 'Josefin Sans', sans-serif;
+    --fonte-logo: 'Josefin Sans', sans-serif;
     --cor-de-fundo: #EBECEE;
     --cor-branca: #FFFFFF;
-    --cor-titulo-menu: #EB9B00;
+    --cor-laranja: #EB9B00;
+    --cor-azul-gradiente: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
 }
 
 body {
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte-padrao);
+    font-size: 16px;
 }
 
 
