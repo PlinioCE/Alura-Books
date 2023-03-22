@@ -4,13 +4,14 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
-    padding: 1rem 1.5rem 1rem 1.5rem;
+    padding: 0 1.5rem 0 0;
+    margin: 0;
 }
 
 .container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 
 .container__botao:checked~.lista-menu {
@@ -32,25 +33,30 @@
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
-    margin-right: 1rem;
+    padding: 1.5rem;
+}
+
+.cabecalho__menu-hamburguer:active {
+    background-image: url("../assets/Menu-click.svg");
 }
 
 .lista-menu {
     display: none;
     position: absolute;
     top: 100%;
+    left: 0;
     width: 270px;
 }
 
 .lista-menu__titulo {
     color: var(--cor-laranja);
     font-weight: 700;
-    padding: 1rem;
+    padding: 1rem 0 1rem 1.5rem;
     background-color: var(--cor-branca);
 }
 
 .lista-menu__item {
-    padding: 1rem;
+    padding: 1rem 0 1rem 1.5rem;
     background-color: var(--cor-branca);
 }
 
