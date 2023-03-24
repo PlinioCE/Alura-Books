@@ -10,10 +10,13 @@
     --fonte-padrao: 'Poppins', sans-serif;
     --fonte-logo: 'Josefin Sans', sans-serif;
     --cor-de-fundo: #EBECEE;
+    --cor-preta: #000000;
     --cor-branca: #FFFFFF;
     --cor-laranja: #EB9B00;
     --cor-azul-gradiente: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --cor-azul-solido: #002F52;
+    --cor-cinza: #474646;
+    --cor-cinza-claro: #858585;
 }
 
 body {

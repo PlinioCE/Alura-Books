@@ -39,3 +39,25 @@
     background: url('../assets/Email.svg') no-repeat;
     padding-left: 2rem;
 }
+
+@media screen and (min-width: 1024px) {
+    .cadastro {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cadastro__descricao {
+        margin-right: 2rem;
+        width: 30%;
+    }
+
+    .cadastro__titulo {
+        font-size: 24px;
+    }
+
+    .cadastro__email {
+        width: 30%;
+    }
+
+}
