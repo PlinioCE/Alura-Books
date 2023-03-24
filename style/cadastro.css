@@ -61,3 +61,10 @@
     }
 
 }
+
+@media screen and (min-width: 1728px) {
+    .cadastro {
+        padding: 4rem 13rem 2rem 13rem;
+    }
+
+}

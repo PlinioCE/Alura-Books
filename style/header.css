@@ -74,6 +74,10 @@
     display: none;
 }
 
+.container__texto {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
     .container__titulo {
         font-family: var(--fonte-logo);
@@ -135,4 +139,30 @@
         font-weight: 500;
     }
 
+    .cabecalho {
+        padding: 0 3rem;
+    }
+
+}
+
+@media screen and (min-width: 1728px) {
+    .container__texto {
+        display: block;
+        margin-right: 2rem;
+    }
+
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--cor-preta);
+    }
+
+    .cabecalho {
+        padding: 0.5rem 4rem;
+    }
+
+    .opcoes {
+        margin: 0 auto 0 4rem;
+    }
 }
