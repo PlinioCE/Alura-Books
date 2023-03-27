@@ -14,6 +14,13 @@ hr {
     display: none;
 }
 
+.rodape__texto {
+    text-align: center;
+    background: var(--cor-azul-gradiente);
+    color: var(--cor-branca);
+    padding: 0.5rem;
+}
+
 @media screen and (min-width: 1024px) {
     .lista-rodape {
         display: block;

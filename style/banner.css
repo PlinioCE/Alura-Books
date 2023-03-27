@@ -33,7 +33,7 @@
     text-align: center;
     color: var(--cor-branca);
     background: url('../assets/Lupa.svg') no-repeat;
-    background-position: 1.5rem;
+    background-position: 15%;
     padding: 3.5rem;
 }
 
@@ -47,7 +47,13 @@
     }
 
     .banner__pesquisa::placeholder {
-        background-position: 5rem;
+        background-position: 10%;
     }
 
+}
+
+@media screen and (min-width: 1728px) {
+    .banner__pesquisa::placeholder {
+        background-position: 28%;
+    }
 }
